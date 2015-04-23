@@ -1,0 +1,18 @@
+//- foot.jade
+hr
+.footer
+	.container
+		.row
+			.col-sm-12
+				p.footer-info Site last modified: 
+					span=timestamp
+if env === 'dev'
+	script(src='//localhost:35729/livereload.js')
+	each script in bypass.javascripts
+		script(src=script)
+	each script in javascripts
+		script(src='../' + script)
+else
+	each script in bypass.javascripts
+		script(src=script)
+	script(src='js/bundle.js')

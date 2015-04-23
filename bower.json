@@ -1,0 +1,23 @@
+{
+  "name": "shinkansen",
+  "version": "0.1.0",
+  "homepage": "",
+  "repository": "",
+  "authors": [
+    "Taylor Young <tdy721@gmail.com>"
+  ],
+  "description": "Simple JavaScript Page Generator",
+  "license": "MPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.3.2"
+  }
+}

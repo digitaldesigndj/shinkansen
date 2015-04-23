@@ -1,0 +1,24 @@
+//- head.jade
+head
+	title=title
+
+	meta(name='viewport', content='width=device-width, initial-scale=1')
+	meta(name='description', content=description)
+	meta(charset='utf-8')
+	link(rel='icon', type='image/x-icon', href='favicon.ico')
+
+if env === 'dev'
+	each style in bypass.stylesheets
+		link(rel='stylesheet', href=style)
+	each style in stylesheets
+		if style[0] === '/' && style[1] === '/'
+			link(rel='stylesheet', href=style)
+		else
+			link(rel='stylesheet', href='../' + style)
+else
+	each style in bypass.stylesheets
+		link(rel='stylesheet', href=style)
+	link(rel='stylesheet', href='css/bundle.css')
+
+	//- @todo Figure out canonicals
+	//- link(rel='canonical' href='http://hyprtxt.com/')

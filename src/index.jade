@@ -1,0 +1,9 @@
+- bypass.stylesheets.push('./css/index.css')
+doctype html
+html
+	include ./jade/head.jade
+	body
+		.container
+			.col-sm-push-3.col-sm-6
+				include:markdown ../readme.md
+		include ./jade/foot.jade
