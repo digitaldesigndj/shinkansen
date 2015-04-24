@@ -1,0 +1,25 @@
+server {
+	root /var/www/shinkansen.hyprtxt.com/public_html;
+	index index.html index.htm;
+	server_name shinkansen.hyprtxt.com;
+	gzip on;
+	gzip_proxied any;
+	# "gzip_types text/html" is assumed.
+	gzip_types application/ecmascript;
+	gzip_types application/javascript;
+	gzip_types application/json;
+	gzip_types application/pdf;
+	gzip_types application/postscript;
+	gzip_types application/x-javascript;
+	gzip_types image/svg+xml;
+	gzip_types text/css;
+	gzip_types text/csv;
+	gzip_types text/javascript;
+	gzip_types text/plain;
+	gzip_types text/xml;
+	gzip_vary on;
+	gzip_disable "MSIE [1-6]\.(?!.*SV1)";
+	location / {
+		try_files $uri $uri/ /index.html;
+	}
+}

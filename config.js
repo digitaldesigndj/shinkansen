@@ -4,13 +4,12 @@ module.exports = {
 	, javascripts: [
 		'bower_components/jquery/dist/jquery.js'
 		, 'bower_components/bootstrap/dist/js/bootstrap.js'
-		, 'dev/js/ga.js'
+		, 'bower_components/loadcss/loadCSS.js'
+		, 'dev/js/tag.js'
 		, 'dev/js/script.js'
 	]
 	, stylesheets: [
 		'bower_components/bootstrap/dist/css/bootstrap.css'
-		, 'bower_components/bootstrap-select/dist/css/bootstrap-select.css'
-		, 'bower_components/pace/themes/green/pace-theme-barber-shop.css'
 		, 'dev/css/style.css'
 	]
 	, bypass: {
