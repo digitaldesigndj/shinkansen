@@ -4,7 +4,7 @@ module.exports = {
 	, javascripts: [
 		'bower_components/jquery/dist/jquery.js'
 		, 'bower_components/bootstrap/dist/js/bootstrap.js'
-		, 'bower_components/loadcss/loadCSS.js'
+		// , 'bower_components/loadcss/loadCSS.js'
 		, 'dev/js/tag.js'
 		, 'dev/js/script.js'
 	]
