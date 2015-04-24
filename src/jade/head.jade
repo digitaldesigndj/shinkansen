@@ -7,7 +7,7 @@ head
 	meta(charset='utf-8')
 	link(rel='icon', type='image/x-icon', href='favicon.ico')
 
-//- if env === 'dev'
+if env === 'dev'
 	each style in bypass.stylesheets
 		link(rel='stylesheet', href=style)
 	each style in stylesheets
@@ -15,7 +15,7 @@ head
 			link(rel='stylesheet', href=style)
 		else
 			link(rel='stylesheet', href='../' + style)
-//- else
+else
 	each style in bypass.stylesheets
 		link(rel='stylesheet', href=style)
 	link(rel='stylesheet', href='css/bundle.css')
