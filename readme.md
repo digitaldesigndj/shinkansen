@@ -2,7 +2,6 @@
 
 Nginx + Node Delivered HTML, Omakase
 
-
 ## A Developer Environment & Static Website Generator
 
 * Grunt
