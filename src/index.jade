@@ -1,10 +1,14 @@
-- bypass.stylesheets.push('./css/index.css')
 doctype html
 html
 	include ./jade/head.jade
 	body
+		.navbar.navbar-static-top
+			.logo Hyprxt
+			ul.navigation
+				li
 		.container
 			.col-sm-push-3.col-sm-6
 				div
-					include:markdown ../readme.md
+					h1 hello world
+					//- include:markdown ../readme.md
 		include ./jade/foot.jade

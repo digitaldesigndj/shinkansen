@@ -13,7 +13,7 @@ Nginx + Node Delivered HTML, Omakase
 * Page Speed Optimizations
 
 
-#### Kind of like Rails, Shinkansen is Omakase. Using Node JS and Grunt it brings together 3 templating languages.
+#### Inspired by Rails, Shinkansen is Omakase. Using Node JS and Grunt it brings together 3 templating languages.
 
 * Jade -> HTML
 * Stylus -> CSS
@@ -50,9 +50,6 @@ Testing! -> Optmization adds a new layer of complexity we have to account for. Y
 
 Testing! -> Lints and Templating languages enforce rules that make you code in a better way.
 
-Chuo -> Build and Deploy Server
-
-<!-- bash -->
 
 Lints
 
@@ -83,8 +80,7 @@ You will also need an HTTP server, I prefer nginx.
 
 ## OSX
 
-brew install nginx
-nano 
+`brew install nginx`
 
 ## Ubuntu
 
