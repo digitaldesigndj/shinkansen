@@ -19,6 +19,7 @@
   "dependencies": {
     "jquery": "~2.1.1",
     "bootstrap": "~3.3.2",
-    "loadcss": "~0.1.6"
+    "loadcss": "~0.1.6",
+    "polymer": "~1.0.5"
   }
 }

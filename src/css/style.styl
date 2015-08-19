@@ -7,7 +7,9 @@
 body
 	color #fff
 	font-family 'futura-pt'
-	background #231A2F url(../images/nebula.jpg) no-repeat top center
+	font-weight bold
+	background #222 url(../images/sushi-background.jpg) repeat top center fixed
+	background-size cover
 
 p, h1, h2, h3, h4, h5, h6, ul, ol
 	font-family 'futura-pt', sans-serif
@@ -16,7 +18,15 @@ p, h1, h2, h3, h4, h5, h6, ul, ol
 
 a
 	color #3DA489
-	// text-shadow 1px 0 0 
+	// text-shadow 1px 0 0
+
+.price
+	text-align right
+	position absolute
+	right 15px
+
+.description
+	font-weight normal
 
 .logo
 	background url(../images/hyprtxt_stack.png) no-repeat center center
@@ -35,9 +45,16 @@ a
 	position relative
 	width 100%
 
-.col-sm-6
-	background rgba( 0,0,0,0.3 )
-	margin 15px 0
+.menu
+	background rgba( 0,0,0,0.5 )
+	p
+		padding-top 12px
+	p.description
+		padding-top 4px
+
+// .col-sm-6
+// 	background rgba( 0,0,0,0.3 )
+// 	margin 15px 0
 
 
 // body
